@@ -36,7 +36,6 @@ body {
 
 .mini-boxes {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -64,6 +63,34 @@ body {
   flex-direction: column;
   align-items: center;
   margin-bottom: 14px;
+  line-height: 16.41px;
+  font-weight: 400;
+}
+
+.mini-box-photo {
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  width: 238px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-mini-box {
+  margin: 12px 0px 13px 19px;
+}
+
+.mini-box-text-photo {
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 26px 19px 27px 11px;
+  margin-bottom: 27px;
+  line-height: 16.41px;
 }
 
 .ingredients-box,
